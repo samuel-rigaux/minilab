@@ -481,7 +481,7 @@ failover peer "dhcp-failover" {
     peer port 647;
     max-response-delay 60;
     max-unacked-updates 10;
-    load balance max seconds 3;
+    mclt 3600;
 }
 ```
 
